@@ -24,10 +24,10 @@ class CountriesViewModel(
                 _countriesData.value = repository.fetchCountriesList()
             } catch (e: NoInternetException) {
                 e.printStackTrace()
-                _countriesData.value = listOf() // This helps in updating progress bar state on UI as data set has size = 0 as an exception has occured
+                _countriesData.value = listOf() // This helps in updating progressbar/emptyText state on UI as data set has size = 0 since an exception has occurred
             } catch (e: Exception) { // This will catch all the other categories of exceptions: JSONException/NetworkException/Exception
                 e.printStackTrace()
-                _countriesData.value = listOf() // For the sake of simplicity I am updating progress bar state on UI as data set size = 0 as an exception has occurred
+                _countriesData.value = listOf() // For the sake of simplicity I am only updating progressbar/emptyText state on UI as data set size = 0 since an exception has occurred
             }
         }
     }

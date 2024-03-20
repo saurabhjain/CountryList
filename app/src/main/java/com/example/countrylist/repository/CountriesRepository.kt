@@ -1,11 +1,9 @@
-package com.example.walmartcountrylist.repository
+package com.example.countrylist.repository
 
-import com.example.walmartcountrylist.apiservice.APIRequest
-import com.example.walmartcountrylist.apiservice.CountriesService
-import com.example.walmartcountrylist.model.CountryResponseItem
-import com.example.walmartcountrylist.utils.Constants
-import com.example.walmartcountrylist.utils.NetworkException
-import com.example.walmartcountrylist.utils.NoInternetException
+import com.example.countrylist.apiservice.APIRequest
+import com.example.countrylist.apiservice.CountriesService
+import com.example.countrylist.model.CountryResponseItem
+import com.example.countrylist.utils.Constants
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 

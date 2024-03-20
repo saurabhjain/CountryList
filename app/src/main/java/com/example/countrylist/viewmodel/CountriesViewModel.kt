@@ -1,12 +1,12 @@
-package com.example.walmartcountrylist.viewmodel
+package com.example.countrylist.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.walmartcountrylist.model.CountryResponseItem
+import com.example.countrylist.model.CountryResponseItem
 import androidx.lifecycle.viewModelScope
-import com.example.walmartcountrylist.repository.CountriesRepository
-import com.example.walmartcountrylist.utils.NoInternetException
+import com.example.countrylist.repository.CountriesRepository
+import com.example.countrylist.utils.NoInternetException
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.Dispatchers
 

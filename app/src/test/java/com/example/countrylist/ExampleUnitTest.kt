@@ -1,4 +1,4 @@
-package com.example.walmartcountrylist
+package com.example.countrylist
 
 import org.junit.Test
 

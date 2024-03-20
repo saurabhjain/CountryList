@@ -1,9 +1,9 @@
-package com.example.walmartcountrylist.ui
+package com.example.countrylist.ui
 
 import androidx.recyclerview.widget.RecyclerView
-import com.example.walmartcountrylist.R
-import com.example.walmartcountrylist.databinding.ListItemBinding
-import com.example.walmartcountrylist.model.CountryResponseItem
+import com.example.countrylist.R
+import com.example.countrylist.databinding.ListItemBinding
+import com.example.countrylist.model.CountryResponseItem
 
 class CountriesVH(
     private val itemBinding: ListItemBinding

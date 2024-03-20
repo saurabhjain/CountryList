@@ -1,4 +1,4 @@
-package com.example.walmartcountrylist.utils
+package com.example.countrylist.utils
 
 object Constants {
     const val BASE_URL = "https://gist.githubusercontent.com/"

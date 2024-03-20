@@ -1,11 +1,11 @@
-package com.example.walmartcountrylist.ui
+package com.example.countrylist.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
-import com.example.walmartcountrylist.databinding.ListItemBinding
-import com.example.walmartcountrylist.model.CountryResponseItem
+import com.example.countrylist.databinding.ListItemBinding
+import com.example.countrylist.model.CountryResponseItem
 
 class CountriesListAdapter: ListAdapter<CountryResponseItem, CountriesVH>(DifferCallback()) {
 

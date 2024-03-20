@@ -25,7 +25,7 @@ If after cloning the project doesn't runs please check the Android Studio versio
 ## Features Supported
 
 * The user is able to scroll through the entire list of countries
-* Application supports device rotation and mainatains the UI state and data upon Activity recreation
+* Application supports device rotation and maintains the UI state and data upon Activity recreation
 
 ## Error Handling
 * Application catches the appropriate network exceptions and lets the user know on the UI if an exception has occured

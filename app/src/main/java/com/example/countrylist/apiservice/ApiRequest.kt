@@ -1,8 +1,8 @@
-package com.example.walmartcountrylist.apiservice
+package com.example.countrylist.apiservice
 
-import com.example.walmartcountrylist.utils.Constants
-import com.example.walmartcountrylist.utils.NetworkException
-import com.example.walmartcountrylist.utils.NoInternetException
+import com.example.countrylist.utils.Constants
+import com.example.countrylist.utils.NetworkException
+import com.example.countrylist.utils.NoInternetException
 import org.json.JSONException
 import org.json.JSONObject
 import retrofit2.Response

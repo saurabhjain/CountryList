@@ -1,4 +1,4 @@
-package com.example.walmartcountrylist.utils
+package com.example.countrylist.utils
 
 import android.content.Context
 import android.net.ConnectivityManager

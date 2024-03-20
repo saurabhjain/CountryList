@@ -1,8 +1,8 @@
-package com.example.walmartcountrylist.viewmodel
+package com.example.countrylist.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.walmartcountrylist.repository.CountriesRepository
+import com.example.countrylist.repository.CountriesRepository
 
 @Suppress("UNCHECKED_CAST")
 class CountriesViewModelFactory(

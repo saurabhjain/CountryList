@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.walmartcountrylist"
+    namespace = "com.example.countrylist"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.walmartcountrylist"
+        applicationId = "com.example.countrylist"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

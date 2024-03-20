@@ -1,7 +1,6 @@
-package com.example.walmartcountrylist.ui
+package com.example.countrylist.ui
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,12 +11,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.walmartcountrylist.R
-import com.example.walmartcountrylist.databinding.FragmentCountriesBinding
-import com.example.walmartcountrylist.repository.CountriesRepository
-import com.example.walmartcountrylist.utils.isNetworkAvailable
-import com.example.walmartcountrylist.viewmodel.CountriesViewModel
-import com.example.walmartcountrylist.viewmodel.CountriesViewModelFactory
+import com.example.countrylist.R
+import com.example.countrylist.databinding.FragmentCountriesBinding
+import com.example.countrylist.repository.CountriesRepository
+import com.example.countrylist.utils.isNetworkAvailable
+import com.example.countrylist.viewmodel.CountriesViewModel
+import com.example.countrylist.viewmodel.CountriesViewModelFactory
 
 class CountriesFragment : Fragment() {
 

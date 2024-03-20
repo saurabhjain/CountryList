@@ -1,11 +1,9 @@
-package com.example.walmartcountrylist.ui
+package com.example.countrylist.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
-import com.example.walmartcountrylist.R
-import com.example.walmartcountrylist.databinding.ActivityCountriesBinding
-import com.example.walmartcountrylist.utils.isNetworkAvailable
+import com.example.countrylist.R
+import com.example.countrylist.databinding.ActivityCountriesBinding
 
 class CountriesActivity : AppCompatActivity() {
 

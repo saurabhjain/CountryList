@@ -1,4 +1,4 @@
-package com.example.walmartcountrylist.model
+package com.example.countrylist.model
 
 import android.os.Parcelable
 import com.squareup.moshi.Json

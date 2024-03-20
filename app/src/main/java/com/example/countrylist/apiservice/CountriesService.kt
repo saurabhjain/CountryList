@@ -1,8 +1,8 @@
-package com.example.walmartcountrylist.apiservice
+package com.example.countrylist.apiservice
 
-import com.example.walmartcountrylist.BuildConfig
-import com.example.walmartcountrylist.model.CountryResponseItem
-import com.example.walmartcountrylist.utils.Constants
+import com.example.countrylist.BuildConfig
+import com.example.countrylist.model.CountryResponseItem
+import com.example.countrylist.utils.Constants
 import okhttp3.OkHttpClient
 import retrofit2.Response
 import retrofit2.Retrofit

@@ -5,7 +5,7 @@ This project follows a MVVM Architecture.
 
 This project fetches a list of countries in JSON format from this [endpoint](https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json) and displays all the countries in a RecyclerView ordered by the position they appear in the JSON. In each table cell, shows the country's "name", "region", "code" and "capital" in the following format:
 
-![Screenshot_20240311_175518 copy](https://github.com/saurabhjain/WalmartCountryList/assets/896910/7ab449be-cf15-4899-b847-437f88a5f151)
+![Screenshot_20240311_175518 copy](https://github.com/saurabhjain/CountryList/assets/896910/7ab449be-cf15-4899-b847-437f88a5f151)
 
 ## Application Video
 [Application video link](https://drive.google.com/file/d/1bSIXr3E_8jGEuBDwwSo1EKv7caMQu66k/view?usp=drive_link)

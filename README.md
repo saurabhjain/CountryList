@@ -19,7 +19,7 @@ If after cloning the project doesn't runs please check the Android Studio versio
 * Android ListAdapter class and its [submitList API](https://developer.android.com/reference/androidx/recyclerview/widget/ListAdapter#submitList(java.util.List%3CT%3E))
 * Uses [Coroutines](https://developer.android.com/kotlin/coroutines)
 * Uses [ViewBinding](https://developer.android.com/topic/libraries/view-binding)
-* This project also aims to use flat view hierarchy to improve rendering performance by using [Constraint Layout](https://developer.android.com/develop/ui/views/layout/constraint-layout) over something like [Relative layout](https://developer.android.com/develop/ui/views/layout/relative) which can result in multiple passes for view construction. Example: [fragment_countries.xml](https://github.com/saurabhjain/WalmartCountryList/blob/main/app/src/main/res/layout/fragment_countries.xml) and [list_item.xml](https://github.com/saurabhjain/WalmartCountryList/blob/main/app/src/main/res/layout/list_item.xml)
+* This project also aims to use flat view hierarchy to improve rendering performance by using [Constraint Layout](https://developer.android.com/develop/ui/views/layout/constraint-layout) over something like [Relative layout](https://developer.android.com/develop/ui/views/layout/relative) which can result in multiple passes for view construction. Example: [fragment_countries.xml](https://github.com/saurabhjain/CountryList/blob/main/app/src/main/res/layout/fragment_countries.xml) and [list_item.xml](https://github.com/saurabhjain/CountryList/blob/main/app/src/main/res/layout/list_item.xml)
 
 
 ## Features Supported
